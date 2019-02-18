@@ -12,7 +12,7 @@ github_repo: "https://github.com/pioneerz/pioneerz.github.io.git" # you code rep
 # Sidebar settings 侧边栏
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/saiban.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/header_avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
