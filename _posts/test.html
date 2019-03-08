@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pioneerz</title>
+
+<body>
+<div id="wrapper">
+    <div id="head">
+        <img id="s_lg_img" class="s_lg_img_gold_show"
+             src="http://img1.imgtn.bdimg.com/it/u=873265023,1618187578&fm=26&gp=0.jpg" width="270"
+             height="129" usemap="#mp">
+    </div>
+
+    <div id="header_1">
+        <img id="image_1" width="270" height="129"/>
+        <font size="3" color="red">来源于asset</font>
+    </div>
+
+    <div id="header_2">
+        <img id="image_2" width="270" height="129"/>
+        <font size="3" color="red">来源于外部存储</font>
+    </div>
+
+    <div id="header_3">
+        <img id="image_3" width="270" height="129">
+        <font size="3" color="red">位置</font>
+    </div>
+</div>
+
+</body>
+
+<script>
+       function callJS(){
+          alert("Android调用了JS的callJS方法");
+       }
+
+    function  aa(path){
+        var img=document.getElementById("image_1");
+        img.src=path;
+    }
+    function  bb(path){
+        var img=document.getElementById("image_2");
+        img.src=path;
+    }
+    function  cc(path){
+        var img=document.getElementById("image_3");
+        img.src=path;
+    }
+
+</script>
+
+</head>
+
+</html>
